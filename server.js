@@ -33,6 +33,6 @@ io.on("connection", (socket) => {
     delete users[socket.id];
   });
 });
-// app.listen(port, () => {
-//   console.log(`Example app listening on port ${port}`)
-// })
+ app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`)
+ })
